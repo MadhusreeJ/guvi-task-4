@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title> Sum of Numbers in an array </title>
+    </head>
+    <body>
+        <script>
+         var duplicate = (function() {
+            var arr = [2,7,2,4,6,4];
+            var res = [];
+            arr.forEach(element => {
+        if (!res.includes(element)) {
+            res.push(element);
+        }});
+        return res;
+    }) ();
+    
+    console.log(duplicate);
+
+        </script>
+
+    </body>
+</html>

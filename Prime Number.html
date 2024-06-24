@@ -4,18 +4,19 @@
     </head>
     <body>
         <script>
-            var sum = function(input){
+            var prime = function(input){
                 for(var i=0 ; i<input.length ; i++){
-                    for(var j= 2; j<input[i] ;j++){
-                        if (input[i] % j != 0){
-                            console.log(input[i]);
+                    var n = input[i];
+                    for(var j=2 ; j<n ; j++){
+                        if(n % j != 0){
+                            console.log(n);
                         }
-
+                        
                     }
-                }
             }
+        }
             
-           var arr = sum ([4,89,19, 16,72,23,29,12,31,40,37]);
+           var arr = prime ([4,89,19, 16,72,23,29,12,31,40,37]);
         </script>
 
     </body>
