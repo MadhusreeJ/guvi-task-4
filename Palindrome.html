@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> Odd Numbers in a array </title>
+    </head>
+    <body>
+        <script>
+
+          var palindrome = function (input){
+            for(var i=0; i<input.length ; i++){
+                var a = input[i].split("").reverse().join("");
+                if (input[i] == a){
+                    console.log(input[i]);
+                }
+            }
+          }
+          var arr = palindrome(["madam", "fun" , "racecar" , "guvi"]);
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> Sum of Numbers in an array </title>
+    </head>
+    <body>
+        <script>
+         duplicate = function (input) {
+            var res = [];
+            input.forEach(element => {
+        if (!res.includes(element)) {
+            res.push(element);
+        }});
+        return res;
+    }
+    var arr = duplicate([2,7,2,4,6,4]);
+    console.log(arr);
+
+        </script>
+
+    </body>
+</html>
